@@ -51,7 +51,7 @@ df21 <- rbind.fill(violencia_sex_2021,
 
 # validacion de que no se requiere el total
 sum(df21$`Denominador (Población)`, na.rm = TRUE)
-sum(df21$`Hombre Denominador (Población)`, na.rm = TRUE)+ sum(df22$`Mujer Denominador (Población)`, na.rm = TRUE)
+sum(df21$`Hombre Denominador (Población)`, na.rm = TRUE)+ sum(df21$`Mujer Denominador (Población)`, na.rm = TRUE)
 
 # validacion de que no se requiere el total
 sum(df21$`Numerador (casos)`)
