@@ -69,9 +69,6 @@ library(naniar)
 gg_miss_var(df21) # grafico de datos faltantes
 
 
-# install.packages("VIM")
-VIM::aggr(df21, cex.axis = 0.5, cex.lab= 0.8)  # graficos de datos faltantes
-
 # identificacion de los datos faltates
 
 # Identificar las filas con datos completos
