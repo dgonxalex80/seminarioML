@@ -99,4 +99,4 @@ ggplot(df_tedadR, aes(x = Var1, y = Freq)) +
 
 
 write.csv(violencia_sex, "bases/violencia_sex_2011_2022.csv")
-
+saveRDS(violencia_sex, "bases/violencia_sex_2011_2022.RDS")
